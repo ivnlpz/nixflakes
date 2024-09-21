@@ -6,7 +6,8 @@ I'm on NixOS and with flakes enabled.
 
 ``` fish
 nix flake init -t github:ivnlpz/nixflakes#node
-
+echo "use flake" > .envrc
+direnv allow
 ```
 
 
